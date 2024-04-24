@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+head{
+    position: fixed;
+}
+
+.Logo{
+    height: 90px;
+}
+
+.LogoSection{
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+.placeInputButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input{
+   padding-left: 10px;
+   padding-right: 10px;
+    border-color: rgb(196, 196, 152);
+    border-width: 3px;
+    border-style: solid;
+    height: 25px;
+    appearance: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#pokekontent{
+    margin-top: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pokeCard{
+    border-style: solid;
+    width: 270px;
+    border-radius: 10px;
+    border-color: #DDBF1E;
+    padding: 15px;
+}
+
+.centerLoadButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.StyleLoadButton{
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: darkred;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.dn{
+    display: none ;
+    overflow: hidden;
+}
+
+
+
+.mai{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.9);
+    
+}
+
+#zui{
+    height: 600px;
+}
+
+.ovhid{
+    overflow: hidden;
+}
+
+.StyleSection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.FormateCard{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.mimgh{
+    height: 130px;
+}
+
+.mas{
+    background-color: #800000;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.mei{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    font-size: 17px;
+}
+
+.pokeCard:hover{
+    cursor: pointer;
+    background-color: rgb(12, 0, 0,0.9) !important;
+}
+
+.Loader{
+    height: 90px;
+}
+
+.LoadingPopUp{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(233, 233, 233, 0.9)
+}
+
+.FirstHalf{
+    padding: 15px;
+    position: relative;
+    
+}
+
+.SecHalf{
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px; 
+  height: 300px;
+}
+
+.SecHalf::-webkit-scrollbar{
+    height: 200px;
+}
+
+.FormateFont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.StyleMoveFonts{
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.LeftRightStyle{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+    z-index: 3;
+    gap: 340px;
+}
+
+.centerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.PokImg{
+    height: 200px;
+}
+
+.PopUpName{
+    display: flex;
+    justify-content: center;
+}
+
+.maet:hover{
+    color: darkred;
+    cursor: pointer;
+}
+
+.LeftRightIcons{
+    height: 30px;
+    color: darkred;
+}
+
+.centerChart{
+    display: flex;
+    align-items: center;
+}
+
+.LeftRightIcons:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 430px){
+    .LeftRightStyle{
+        gap: 250px;
+    }
+    #myChart{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .centerPie{
+        display: flex;
+        align-items: center;
+    }
+    .LeftRightStyle{
+        gap: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    #myChart{
+        width: 220px !important;
+        height: 220px !important;
+    }
+    .LeftRightStyle{
+        gap: 220px;
+    }
+}
+
+@media(max-width: 347px){
+    .LeftRightStyle{
+        gap: 200px;
+    }
+}

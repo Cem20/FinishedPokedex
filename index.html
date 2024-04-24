@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body onload="init()">
+    <div style="position: fixed; width: 100%; top: 0;">
+        <div class="LogoSection">
+            <img class="Logo" src="./img/poklogo.png" alt="" srcset="">
+        </div>
+        <div class="placeInputButton">
+            <input id="search" type="text" autocomplete="on" >
+        </div>
+    </div>
+    <div id="pokekontent">
+        
+    </div>
+    <div class="centerLoadButton">
+    <button id="butn" class="StyleLoadButton" onclick="loadrest()">Load More</button>
+    </div>
+    <div id="PopUp" class="dn" onclick="popUpCloseDeactivated()">
+        
+    </div>
+    <div id="foo">
+        <svg class="Loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><linearGradient id="a11"><stop offset="0" stop-color="#FF156D" stop-opacity="0"></stop><stop offset="1" stop-color="#FF156D"></stop></linearGradient><circle fill="none" stroke="url(#a11)" stroke-width="15" stroke-linecap="round" stroke-dasharray="0 44 0 44 0 44 0 44 0 360" cx="100" cy="100" r="70" transform-origin="center"><animateTransform type="rotate" attributeName="transform" calcMode="discrete" dur="2" values="360;324;288;252;216;180;144;108;72;36" repeatCount="indefinite"></animateTransform></circle></svg>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="arrays.js"></script>
+    <script src="templates.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
